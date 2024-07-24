@@ -11,7 +11,10 @@ const CONFIG = {
     instagram: "",
   },
   projects: [
-
+    {
+      name: `Reinforcement-Learning-on-FrozenLake`,
+      href: "https://github.com/moripiri/Reinforcement-Learning-on-FrozenLake",
+    },
   ],
   // blog setting (required)
   blog: {
@@ -51,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
